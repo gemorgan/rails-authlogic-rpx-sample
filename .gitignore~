@@ -6,4 +6,3 @@ db/*.sqlite3
 data.dump
 db/data.yml
 config/database.yml
-config/app_config.yml

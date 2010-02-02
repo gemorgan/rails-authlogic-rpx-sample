@@ -1,6 +1,6 @@
 class UserSession < Authlogic::Session::Base
 	#auto_register false
-	rpx_key RPX_API_KEY
+	rpx_key APP_CONFIG[:rpx_key]
 	rpx_extended_info
 	
 private
